@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.image img {
+  border-radius: 50%;
+  border: 2px solid blue;
+  padding: 2px;
+  height: 150px;
+  width: 150px;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-content h1 {
+  font-size: 20px;
+}
+.text-content h2 {
+  font-size: 13px;
+  font-weight: 100;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+}
+.icons a {
+  padding: 4px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.icons a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+button {
+  background-color: rgb(64, 112, 244);
+  color: white;
+  padding: 3px 15px;
+  border-radius: 40px;
+  border: none;
+  font-size: 12px;
+}
+button:hover {
+  background-color: rgb(40, 95, 245);
+  transition: 0.3s;
+}
+.analytics {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.analytics .data {
+  display: flex;
+  align-items: center;
+  color: #333;
+  padding: 0 20px;
+  border-right: 2px solid #e7e7e7;
+}
+.data i {
+  font-size: 18px;
+  margin-right: 6px;
+}
+.data:last-child {
+  border-right: none;
+}
